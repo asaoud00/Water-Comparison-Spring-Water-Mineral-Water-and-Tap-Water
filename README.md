@@ -1,5 +1,9 @@
 # Water Comparison: Spring, Mineral, and Tap Water
 
+##Résumé
+Ce projet analyse les différences entre l’eau de source, l’eau minérale et l’eau du robinet. Il propose une approche basée sur la composition chimique pour recommander une alternance de consommation adaptée aux besoins de santé.
+
+
 ## Problem
 
 Many people do not understand the differences between spring water, mineral water, and tap water. This lack of knowledge can lead to poor hydration habits or excessive consumption of certain minerals, which may affect health.
@@ -60,3 +64,4 @@ Example:
 ## Author
 
 Final project for the Building AI course
+
