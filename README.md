@@ -1,56 +1,76 @@
 # Water Comparison: Spring, Mineral, and Tap Water
 
-## Résumé / Summary
-Ce projet analyse les différences entre l'eau de source, l'eau minérale et l'eau du robinet. Il propose une approche basée sur la composition chimique pour recommander une alternance de consommation adaptée aux besoins de santé.
+## Summary
+This project analyzes the differences between spring water, mineral water, and tap water. It uses water composition data to recommend balanced consumption based on health needs and mineral intake.
+
+---
 
 ## Problem
-Many people do not understand the differences between spring water, mineral water, and tap water. This lack of knowledge can lead to poor hydration habits or excessive consumption of certain minerals, which may affect health.
+Many people do not understand the differences between spring water, mineral water, and tap water. This lack of awareness can lead to poor hydration habits or excessive intake of certain minerals, which may negatively affect health.
 
-## Idea / Solution
-This project proposes a simple AI-based recommendation system that helps users choose the most suitable type of water based on its mineral composition and their needs.
-The goal is to encourage a balanced consumption of different water types instead of relying on only one.
+---
+
+## Idea
+The idea is to build a simple AI-based recommendation system that helps users choose the most suitable type of water based on its mineral composition.
+
+Instead of consuming only one type of water, the system encourages **balanced alternation** depending on mineral levels and user needs.
+
+---
 
 ## Data
-The project uses data about water composition, including:
+The project uses water composition data such as:
+
 - Calcium (Ca)
 - Magnesium (Mg)
 - Sodium (Na)
 - pH level
 - Total mineralization
 
-These data can come from:
+### Data sources:
 - Bottle labels
 - Public datasets
 - Water quality reports
 
-## AI Methods
-The project uses simple AI techniques such as:
-- Rule-based decision system
-- Basic classification (e.g., low, medium, high mineralization)
-- Recommendation logic based on user needs
+---
 
-Example:
-- High mineral water → not recommended for daily exclusive consumption
-- Low mineral water → suitable for daily hydration
+## AI Methods
+This project uses simple and interpretable AI methods:
+
+- Rule-based decision system
+- Basic classification (low / medium / high mineralization)
+- Recommendation logic based on health considerations
+
+### Example rules:
+- High mineral water → occasional consumption
+- Low mineral water → suitable for daily use
+- High sodium → limit for certain users
+
+---
 
 ## How to use
-1. Input water composition (manually or from dataset)
+1. Input water composition data
 2. The system analyzes mineral levels
-3. It provides a recommendation:
-   - Daily use
-   - Occasional use
-   - Avoid excessive consumption
+3. Get a recommendation:
+   - Daily consumption
+   - Occasional consumption
+   - Avoid excessive use
+
+---
 
 ## Challenges
-- Limited availability of structured water composition data
+- Limited access to structured datasets
 - Variability between regions and brands
-- Simplification of health recommendations without medical supervision
+- Simplified health recommendations (not medical advice)
 
-## Future Improvements
-- Use real datasets for training
-- Add machine learning models
-- Create a web or mobile application
-- Personalize recommendations based on user health
+---
 
-## Author
-Final project for the Building AI course
+## Future improvements
+- Use real-world datasets
+- Apply machine learning models
+- Build a web or mobile application
+- Personalize recommendations based on user profiles
+
+---
+
+## Acknowledgments
+This project was created as part of the **Building AI** course.
