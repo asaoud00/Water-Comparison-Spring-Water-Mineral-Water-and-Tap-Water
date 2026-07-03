@@ -1,82 +1,62 @@
-# Water-Comparison-Spring-Water-Mineral-Water-and-Tap-Water
+# Water Comparison: Spring, Mineral, and Tap Water
+
+## Problem
+
+Many people do not understand the differences between spring water, mineral water, and tap water. This lack of knowledge can lead to poor hydration habits or excessive consumption of certain minerals, which may affect health.
+
+## Idea / Solution
+
+This project proposes a simple AI-based recommendation system that helps users choose the most suitable type of water based on its mineral composition and their needs.
+
+The goal is to encourage a balanced consumption of different water types instead of relying on only one.
+
+## Data
+
+The project uses data about water composition, including:
+- Calcium (Ca)
+- Magnesium (Mg)
+- Sodium (Na)
+- pH level
+- Total mineralization
+
+These data can come from:
+- Bottle labels
+- Public datasets
+- Water quality reports
+
+## AI Methods
+
+The project uses simple AI techniques such as:
+- Rule-based decision system
+- Basic classification (e.g., low, medium, high mineralization)
+- Recommendation logic based on user needs
+
+Example:
+- High mineral water → not recommended for daily exclusive consumption
+- Low mineral water → suitable for daily hydration
+
+## How to use
+
+1. Input water composition (manually or from dataset)
+2. The system analyzes mineral levels
+3. It provides a recommendation:
+   - Daily use
+   - Occasional use
+   - Avoid excessive consumption
+
+## Challenges
+
+- Limited availability of structured water composition data
+- Variability between regions and brands
+- Simplification of health recommendations without medical supervision
+
+## Future Improvements
+
+- Use real datasets for training
+- Add machine learning models
+- Create a web or mobile application
+- Personalize recommendations based on user health
+
+## Author
+
 Final project for the Building AI course
-Summary
-This project analyzes the differences between spring water, mineral water, and tap water. It proposes an approach based on chemical composition to recommend a balanced alternation of consumption according to health needs.
-Background
-Water is essential to life, but not all water is the same. Their mineral composition varies and can impact health when consumed exclusively.
-This project addresses several issues:
-•	Lack of knowledge about the differences between water types
-
-•	Excessive consumption of a single type of water (e.g., highly mineralized water)
-
-•	Lack of simple personalized recommendations
-
-•	Risks related to poor hydration or excess of certain minerals
-Personal motivation: to better understand the quality of the water consumed daily and propose a simple solution to improve consumption habits.
-This topic is important because hydration directly affects health (kidneys, digestion, mineral balance).
-How is it used?
-The system analyzes different types of water and proposes an appropriate alternation based on their composition (calcium, magnesium, sodium, etc.).
-Usage: 1. The user reviews the characteristics of each type of water
-2. The system compares their compositions
-3. A consumption alternation recommendation is provided (e.g., mineral water + tap water)
-Use cases:
-•	Daily home consumption
-
-•	Athletes or people with specific needs
-
-•	Diets requiring mineral intake control
-Example display: Example
-Data sources and AI methods
-Data sources may include:
-•	Water bottle labels
-
-•	Public data on drinking water quality
-
-•	Health organizations (WHO, ministries)
-Methods used:
-•	Comparative analysis of chemical compositions
-
-•	Simple rules (conditional logic)
-
-•	Possibility of evolving into an AI model for personalized recommendations
-Example table:
-Water type	Main characteristics
-Mineral water	Rich in minerals
-Spring water	Low mineral content
-Tap water	Varies depending on region
-Challenges
-The project has some limitations:
-•	Variability of tap water quality depending on regions
-
-•	Data may be incomplete or not standardized
-
-•	Difficulty in personalization without precise user data
-
-•	Risk of oversimplifying nutritional needs
-Ethical considerations:
-•	Does not replace medical advice
-
-•	Provides general recommendations only
-What next?
-Possible improvements:
-•	Integration of an AI-based intelligent system
-
-•	Personalization based on age, weight, and health condition
-
-•	Mobile application for consumption tracking
-
-•	Addition of sensors or real-time local data
-Required skills:
-•	Data analysis
-
-•	Programming (Python)
-
-•	Machine Learning
-
-•	Knowledge in nutrition and health
-Acknowledgments
-•	Data inspired by public health organizations
-
-•	General information about drinking and mineral water
-
-•	Images from Wikimedia Commons (free license)
